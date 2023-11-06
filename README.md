@@ -1,8 +1,8 @@
 # Esercizio: Calcolo del prezzo del biglietto del treno
 
-- prompt km da percorrere (km)
-- prompt età (eta)
-- prezzo: km(trasformare in numero) * 0.21
+- prompt km da percorrere (km) - trasformato in number
+- prompt età (eta) - trasformato in number
+- prezzo: km * 0.21
 - se l'età è sotto i 18
     - sconto 20%;
 - se l'età è sopra i 65
