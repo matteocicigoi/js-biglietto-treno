@@ -15,4 +15,7 @@ if(eta < 18){
 }
 
 //arrotonda a due cifre decimali
-console.log('Prezzo: ', prezzo.toFixed(2) + '€');
+const testo = 'Prezzo: ' + prezzo.toFixed(2) + '€';
+
+console.log(testo);
+document.getElementById('prezzo').innerHTML = testo;
